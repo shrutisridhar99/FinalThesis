@@ -30,7 +30,7 @@
   
   
 <link rel="prev" href="index.html"/>
-<link rel="next" href="3-math-sci.html"/>
+<link rel="next" href="3-results-and-discussion.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -101,28 +101,15 @@ div.csl-indent {
 <li class="chapter" data-level="2.5" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html#statistical-analysis"><i class="fa fa-check"></i><b>2.5</b> Statistical analysis</a></li>
 <li class="chapter" data-level="2.6" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html#clustering-analysis"><i class="fa fa-check"></i><b>2.6</b> Clustering analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="3-math-sci.html"><a href="3-math-sci.html"><i class="fa fa-check"></i><b>3</b> Mathematics and Science</a>
+<li class="chapter" data-level="3" data-path="3-results-and-discussion.html"><a href="3-results-and-discussion.html"><i class="fa fa-check"></i><b>3</b> Results and Discussion</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="3-math-sci.html"><a href="3-math-sci.html#math"><i class="fa fa-check"></i><b>3.1</b> Math</a></li>
-<li class="chapter" data-level="3.2" data-path="3-math-sci.html"><a href="3-math-sci.html#chemistry-101-symbols"><i class="fa fa-check"></i><b>3.2</b> Chemistry 101: Symbols</a>
-<ul>
-<li class="chapter" data-level="3.2.1" data-path="3-math-sci.html"><a href="3-math-sci.html#typesetting-reactions"><i class="fa fa-check"></i><b>3.2.1</b> Typesetting reactions</a></li>
-<li class="chapter" data-level="3.2.2" data-path="3-math-sci.html"><a href="3-math-sci.html#other-examples-of-reactions"><i class="fa fa-check"></i><b>3.2.2</b> Other examples of reactions</a></li>
-</ul></li>
-<li class="chapter" data-level="3.3" data-path="3-math-sci.html"><a href="3-math-sci.html#physics"><i class="fa fa-check"></i><b>3.3</b> Physics</a></li>
-<li class="chapter" data-level="3.4" data-path="3-math-sci.html"><a href="3-math-sci.html#biology"><i class="fa fa-check"></i><b>3.4</b> Biology</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="4-ref-labels.html"><a href="4-ref-labels.html"><i class="fa fa-check"></i><b>4</b> Graphics, References, and Labels</a>
-<ul>
-<li class="chapter" data-level="4.1" data-path="4-ref-labels.html"><a href="4-ref-labels.html#figures"><i class="fa fa-check"></i><b>4.1</b> Figures</a></li>
-<li class="chapter" data-level="4.2" data-path="4-ref-labels.html"><a href="4-ref-labels.html#footnotes-and-endnotes"><i class="fa fa-check"></i><b>4.2</b> Footnotes and Endnotes</a></li>
-<li class="chapter" data-level="4.3" data-path="4-ref-labels.html"><a href="4-ref-labels.html#bibliographies"><i class="fa fa-check"></i><b>4.3</b> Bibliographies</a></li>
-<li class="chapter" data-level="4.4" data-path="4-ref-labels.html"><a href="4-ref-labels.html#anything-else"><i class="fa fa-check"></i><b>4.4</b> Anything else?</a></li>
+<li class="chapter" data-level="3.1" data-path="3-results-and-discussion.html"><a href="3-results-and-discussion.html#pathway-analysis-1"><i class="fa fa-check"></i><b>3.1</b> Pathway Analysis</a></li>
+<li class="chapter" data-level="3.2" data-path="3-results-and-discussion.html"><a href="3-results-and-discussion.html#sting-cgas-pathway"><i class="fa fa-check"></i><b>3.2</b> STING cGAS Pathway</a></li>
+<li class="chapter" data-level="3.3" data-path="3-results-and-discussion.html"><a href="3-results-and-discussion.html#sting-correlation-analysis-1"><i class="fa fa-check"></i><b>3.3</b> STING Correlation Analysis</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i>Conclusion</a></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="A-the-first-appendix.html"><a href="A-the-first-appendix.html"><i class="fa fa-check"></i><b>A</b> The First Appendix</a></li>
-<li class="chapter" data-level="B" data-path="B-the-second-appendix-for-fun.html"><a href="B-the-second-appendix-for-fun.html"><i class="fa fa-check"></i><b>B</b> The Second Appendix, for Fun</a></li>
+<li class="chapter" data-level="A" data-path="A-appendix.html"><a href="A-appendix.html"><i class="fa fa-check"></i><b>A</b> Appendix</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown target="blank">Published with bookdown</a></li>
@@ -149,31 +136,42 @@ div.csl-indent {
 <h2><span class="header-section-number">2.1</span> Datasets<a href="2-rmd-basics.html#datasets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The following whole genome RNA-Seq DLBCL datasets were compiled for analysis and validation -</p>
 <ul>
-<li><p><em>GOYA DLBCL dataset</em></p>
-<ul>
-<li>This dataset contains collected RNASeq data of 552 samples from the GOYA clinical trial. The GOYA trial tested the efficacy of Gazyva (GA101) compared with Rituxan (Rituximab) in first line, untreated DLBCL patients <span class="citation">(Nowicka et al., 2021)</span>.</li>
-</ul></li>
-<li><p><em>Dave dataset</em></p>
-<ul>
-<li>This dataset contain exome sequencing data for 1001 DLBCL patients and RNA sequencing data for 775 DLBCL patients <span class="citation">(Reddy et al., 2017)</span>.</li>
-</ul></li>
-<li><p><em>Staudt dataset</em></p>
-<ul>
-<li>This retrospective study included 181 clinical samples from CHOP-treated patients and 233 clinical samples from Rituximab-CHOP-treated patients <span class="citation">(Schmitz et al., 2018)</span>.</li>
-</ul></li>
+<li><strong>GOYA DLBCL dataset</strong> <span class="citation">(<a href="#ref-nowicka2021prognostic" role="doc-biblioref">Nowicka et al., 2021</a>)</span></li>
 </ul>
+<p>This dataset contains collected RNASeq data of 552 samples from the GOYA clinical trial. The GOYA trial tested the efficacy of Gazyva (GA101) compared with Rituxan (Rituximab) in first line, untreated DLBCL patients.</p>
+<ul>
+<li><strong>Dave dataset</strong> <span class="citation">(<a href="#ref-reddy2017genetic" role="doc-biblioref">Reddy et al., 2017</a>)</span></li>
+</ul>
+<p>This dataset contain exome sequencing data for 1001 DLBCL patients and RNA sequencing data for 775 DLBCL patients.</p>
+<ul>
+<li><strong>Staudt dataset</strong> <span class="citation">(<a href="#ref-schmitz2018genetics" role="doc-biblioref">Schmitz et al., 2018</a>)</span></li>
+</ul>
+<p>This retrospective study included 181 clinical samples from CHOP-treated patients and 233 clinical samples from Rituximab-CHOP-treated patients.</p>
 <p>The following microarray datasets were choosen for analysis -</p>
 </div>
 <div id="immunedeconvolution" class="section level2 hasAnchor" number="2.2">
 <h2><span class="header-section-number">2.2</span> Immunedeconvolution<a href="2-rmd-basics.html#immunedeconvolution" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Immune deconvolution by the following methods was conducted for the chosen datasets.</p>
 <ul>
-<li>quanTIseq</li>
-<li>CIBERSORT</li>
-<li>MCP - Counter</li>
-<li>xCell</li>
-<li>EPIC</li>
+<li>quanTIseq <span class="citation">(<a href="#ref-finotello2019molecular" role="doc-biblioref">Finotello et al., 2019</a>)</span></li>
 </ul>
+<p>Computational pipeline for the quantification of the Tumor Immune contexture from human RNA-seq data</p>
+<ul>
+<li>CIBERSORT <span class="citation">(<a href="#ref-chen2018profiling" role="doc-biblioref">Chen, Khodadoust, Liu, Newman, &amp; Alizadeh, 2018</a>)</span></li>
+</ul>
+<p>CIBERSORT takes an input matrix of reference gene expression signatures which is collectively used to estimate the relative proportions of each cell type of interest. CIBERSORT exhibits substantially improved accuracy for the analysis of mixture</p>
+<ul>
+<li>MCP - Counter <span class="citation">(<a href="#ref-becht2016estimating" role="doc-biblioref">Becht et al., 2016</a>)</span></li>
+</ul>
+<p>Microenvironment Cell Populations-counter (MCP-counter) method, allows the quantification of the absolute abundance of eight immune and two stromal cell populations in heterogeneous tissues from transcriptomic data.</p>
+<ul>
+<li>xCell <span class="citation">(<a href="#ref-widodo2021toward" role="doc-biblioref">Widodo et al., 2021</a>)</span></li>
+</ul>
+<p>xCell, a gene signature-based method that can be used to infer 64 immune and stromal cell types.</p>
+<ul>
+<li>EPIC <span class="citation">(<a href="#ref-racle2020epic" role="doc-biblioref">Racle &amp; Gfeller, 2020</a>)</span></li>
+</ul>
+<p>Estimates the Proportion of Immune and Cancer cells (EPIC) from bulk tumor gene expression data. EPIC is based on a unique collection of RNA-Seq reference gene expression profiles from either circulating immune cells or tumor- infiltrating non-malignant cell types (i.e., immune, stromal and endothelial cells).</p>
 </div>
 <div id="pathway-analysis" class="section level2 hasAnchor" number="2.3">
 <h2><span class="header-section-number">2.3</span> Pathway Analysis<a href="2-rmd-basics.html#pathway-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -196,13 +194,40 @@ div.csl-indent {
 
 </div>
 </div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-becht2016estimating" class="csl-entry">
+Becht, E., Giraldo, N. A., Lacroix, L., Buttard, B., Elarouci, N., Petitprez, F., … others. (2016). Estimating the population abundance of tissue-infiltrating immune and stromal cell populations using gene expression. <em>Genome Biology</em>, <em>17</em>(1), 1–20.
+</div>
+<div id="ref-chen2018profiling" class="csl-entry">
+Chen, B., Khodadoust, M. S., Liu, C. L., Newman, A. M., &amp; Alizadeh, A. A. (2018). Profiling tumor infiltrating immune cells with CIBERSORT. In <em>Cancer systems biology</em> (pp. 243–259). Springer.
+</div>
+<div id="ref-finotello2019molecular" class="csl-entry">
+Finotello, F., Mayer, C., Plattner, C., Laschober, G., Rieder, D., Hackl, H., … others. (2019). Molecular and pharmacological modulators of the tumor immune contexture revealed by deconvolution of RNA-seq data. <em>Genome Medicine</em>, <em>11</em>(1), 1–20.
+</div>
+<div id="ref-nowicka2021prognostic" class="csl-entry">
+Nowicka, M., Hilton, L. K., Ashton-Key, M., Hargreaves, C. E., Lee, C., Foxall, R., … others. (2021). Prognostic significance of FCGR2B expression for the response of DLBCL patients to rituximab or obinutuzumab treatment. <em>Blood Advances</em>, <em>5</em>(15), 2945–2957.
+</div>
+<div id="ref-racle2020epic" class="csl-entry">
+Racle, J., &amp; Gfeller, D. (2020). EPIC: A tool to estimate the proportions of different cell types from bulk gene expression data. In <em>Bioinformatics for cancer immunotherapy</em> (pp. 233–248). Springer.
+</div>
+<div id="ref-reddy2017genetic" class="csl-entry">
+Reddy, A., Zhang, J., Davis, N. S., Moffitt, A. B., Love, C. L., Waldrop, A., … others. (2017). Genetic and functional drivers of diffuse large b cell lymphoma. <em>Cell</em>, <em>171</em>(2), 481–494.
+</div>
+<div id="ref-schmitz2018genetics" class="csl-entry">
+Schmitz, R., Wright, G. W., Huang, D. W., Johnson, C. A., Phelan, J. D., Wang, J. Q., … others. (2018). Genetics and pathogenesis of diffuse large b-cell lymphoma. <em>New England Journal of Medicine</em>, <em>378</em>(15), 1396–1407.
+</div>
+<div id="ref-widodo2021toward" class="csl-entry">
+Widodo, S. S., Hutchinson, R. A., Fang, Y., Mangiola, S., Neeson, P. J., Darcy, P. K., … others. (2021). Toward precision immunotherapy using multiplex immunohistochemistry and in silico methods to define the tumor immune microenvironment. <em>Cancer Immunology, Immunotherapy</em>, <em>70</em>(7), 1811–1820.
+</div>
+</div>
             </section>
 
           </div>
         </div>
       </div>
 <a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="3-math-sci.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="3-results-and-discussion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
