@@ -1,8 +1,4 @@
 fig:STING
-fig:reedlogo
-fig:delaysboxplot
-fig:subd
-fig:subd2
 rmd-basics
 datasets
 immunedeconvolution
@@ -13,11 +9,5 @@ clustering-analysis
 results-and-discussion
 pathway-analysis-1
 sting-cgas-pathway
-sting-analysis
-ref-labels
-figures
-footnotes-and-endnotes
-bibliographies
-anything-else
-the-first-appendix
-the-second-appendix-for-fun
+sting-correlation-analysis-1
+appendix
