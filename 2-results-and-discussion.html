@@ -170,7 +170,11 @@ div.csl-indent {
 <li class="chapter" data-level="1.5" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html#statistical-analysis"><i class="fa fa-check"></i><b>1.5</b> Statistical analysis</a></li>
 <li class="chapter" data-level="1.6" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html#clustering-analysis"><i class="fa fa-check"></i><b>1.6</b> Clustering analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="2-results-and-discussion.html"><a href="2-results-and-discussion.html"><i class="fa fa-check"></i><b>2</b> Results and Discussion</a></li>
+<li class="chapter" data-level="2" data-path="2-results-and-discussion.html"><a href="2-results-and-discussion.html"><i class="fa fa-check"></i><b>2</b> Results and Discussion</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="2-results-and-discussion.html"><a href="2-results-and-discussion.html#pathway-analysis-1"><i class="fa fa-check"></i><b>2.1</b> Pathway Analysis</a></li>
+<li class="chapter" data-level="2.2" data-path="2-results-and-discussion.html"><a href="2-results-and-discussion.html#sting-analysis"><i class="fa fa-check"></i><b>2.2</b> STING Analysis</a></li>
+</ul></li>
 <li class="chapter" data-level="3" data-path="3-ref-labels.html"><a href="3-ref-labels.html"><i class="fa fa-check"></i><b>3</b> Graphics, References, and Labels</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="3-ref-labels.html"><a href="3-ref-labels.html#figures"><i class="fa fa-check"></i><b>3.1</b> Figures</a></li>
@@ -204,7 +208,26 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="results-and-discussion" class="section level1 hasAnchor" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Results and Discussion<a href="2-results-and-discussion.html#results-and-discussion" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="pathway-analysis-1" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Pathway Analysis<a href="2-results-and-discussion.html#pathway-analysis-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>By applying GSEA to the GOYA RNA Seq dataset, we obtain a broad overview of the enriched pathways in ‘immune cell type rich’ versus ‘immune cell type poor’ samples. Normalized enrichment scores (NES) were plotted for each pathway with the size of the data point representing the number of genes enriched for that pathway. A higher NES indicates a more significant enrichment of the pathway. The data points were colour coded with respect to the p-value with the lighter shade implying higher p value and lower statistically significance.</p>
+<p>DLBCL arises from the germinal center and shows two distinct subtypes: germinal-center B-cell-like (GCB) DLBCL and activated B-cell-like (ABC) DLBCL. Germinal-center B-cell-like (GCB) diffuse large B-cell lymphoma (DLBCL) are derived from normal germinal-center centroblasts whereas Activated B-cell-like (ABC) diffuse large B-cell lymphomas (DLBCLs) are derived from plasmablasts27.</p>
+<p>Certain transformations of the GCB result in malignancy such as deregulation of BCL2, PI3K/mTOR pathway, p53 mutations and MDM2 gain/amplification28. Deregulation of anti apoptotic BCL2 leads to overexpression of BCL2, making the cell resist cell death.</p>
+<p>ABC DLBCL however, shows constitutive activation of the oncogenic nuclear factor kappa B (NF-kB) signaling pathway as well as de-regulation BCL2 protein28. NF-κB activity is required for normal B cell development and survival. Lymphoid malignancies typically circumvent cell death by activation of the NFkB pathway. In particular for B cells, NFkB activation is seen downstream of several receptors including BCR, CD40, the B-cell–activating factor (BAFF) receptor, and Toll-like receptors (TLRs)29</p>
+<p>BCL6, a transcription repressor is also known to play a causative role in lymphomagenesis. STAT3 is a negative transcriptional regulator of BCL6. Sustained STAT3 activity (for proliferation and survival) is seen in ABC DLBCL cells, suggesting that chemoresistance and consequently poorer outcomes, exhibited by ABC DLBCL could be determined by simultaneous activation of both NFkB and STAT328,30</p>
+<p>Further, lymphocytes and lymphoid malignancies depend on cytokine stimulation for growth and survival. B cell microenvironment interaction is influenced by cytokines such as interleukin (IL) 4, IL6, IL10 and IL2131</p>
+<p>The GSEA comparisons (Supplementary Material Fig 1a-h) are for DLBCL with high immune cell infiltration vs low immune cell infiltration. Merdan et al 32 evaluated the CIBERSORT deconvolution scores for different immune subtypes and stratified the scores according to clinical risk groups. They established an association between the relative proportions of the immune cell types within subgroups of DLBCL patients by various clinical traits including cell of origin. It was seen that M0 macrophages, memory resting CD4 + T-cells and CD8+ T cells show greater infiltration particularly in GCB DLBCL samples. This could suggest that the pathways (such as complement, inflammatory response for M0, response to DNA damage for CD4+ memory resting and interferon gamma and alpha for CD8+ T cells) that show greater enrichment than STAT3 and NFkB (which are the pathways active in ABC DLBCL) could represent pathways active in GCB DLBCL that drive the infiltration of these cell types.</p>
+</div>
+<div id="sting-analysis" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> STING Analysis<a href="2-results-and-discussion.html#sting-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:STING"></span>
+<img src="figure/sting.jpg" alt="STING Pathway" width="342" />
+<p class="caption">
+Figure 2.1: STING Pathway
+</p>
+</div>
 
+</div>
 </div>
             </section>
 

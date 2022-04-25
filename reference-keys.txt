@@ -1,3 +1,4 @@
+fig:STING
 fig:reedlogo
 fig:delaysboxplot
 fig:subd
@@ -10,6 +11,8 @@ sting-correlation-analysis
 statistical-analysis
 clustering-analysis
 results-and-discussion
+pathway-analysis-1
+sting-analysis
 ref-labels
 figures
 footnotes-and-endnotes
