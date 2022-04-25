@@ -12,6 +12,7 @@ statistical-analysis
 clustering-analysis
 results-and-discussion
 pathway-analysis-1
+sting-cgas-pathway
 sting-analysis
 ref-labels
 figures

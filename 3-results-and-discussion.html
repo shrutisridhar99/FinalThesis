@@ -82,7 +82,8 @@
 <li class="chapter" data-level="3" data-path="3-results-and-discussion.html"><a href="3-results-and-discussion.html"><i class="fa fa-check"></i><b>3</b> Results and Discussion</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="3-results-and-discussion.html"><a href="3-results-and-discussion.html#pathway-analysis-1"><i class="fa fa-check"></i><b>3.1</b> Pathway Analysis</a></li>
-<li class="chapter" data-level="3.2" data-path="3-results-and-discussion.html"><a href="3-results-and-discussion.html#sting-analysis"><i class="fa fa-check"></i><b>3.2</b> STING Analysis</a></li>
+<li class="chapter" data-level="3.2" data-path="3-results-and-discussion.html"><a href="3-results-and-discussion.html#sting-cgas-pathway"><i class="fa fa-check"></i><b>3.2</b> STING cGAS Pathway</a></li>
+<li class="chapter" data-level="3.3" data-path="3-results-and-discussion.html"><a href="3-results-and-discussion.html#sting-analysis"><i class="fa fa-check"></i><b>3.3</b> STING Analysis</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="4-ref-labels.html"><a href="4-ref-labels.html"><i class="fa fa-check"></i><b>4</b> Graphics, References, and Labels</a>
 <ul>
@@ -127,14 +128,20 @@
 <p>Further, lymphocytes and lymphoid malignancies depend on cytokine stimulation for growth and survival. B cell microenvironment interaction is influenced by cytokines such as interleukin (IL) 4, IL6, IL10 and IL2131</p>
 <p>The GSEA comparisons (Supplementary Material Fig 1a-h) are for DLBCL with high immune cell infiltration vs low immune cell infiltration. Merdan et al 32 evaluated the CIBERSORT deconvolution scores for different immune subtypes and stratified the scores according to clinical risk groups. They established an association between the relative proportions of the immune cell types within subgroups of DLBCL patients by various clinical traits including cell of origin. It was seen that M0 macrophages, memory resting CD4 + T-cells and CD8+ T cells show greater infiltration particularly in GCB DLBCL samples. This could suggest that the pathways (such as complement, inflammatory response for M0, response to DNA damage for CD4+ memory resting and interferon gamma and alpha for CD8+ T cells) that show greater enrichment than STAT3 and NFkB (which are the pathways active in ABC DLBCL) could represent pathways active in GCB DLBCL that drive the infiltration of these cell types.</p>
 </div>
-<div id="sting-analysis" class="section level2 hasAnchor" number="3.2">
-<h2><span class="header-section-number">3.2</span> STING Analysis<a href="3-results-and-discussion.html#sting-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="sting-cgas-pathway" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> STING cGAS Pathway<a href="3-results-and-discussion.html#sting-cgas-pathway" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:STING"></span>
 <img src="figure/sting.jpg" alt="STING Pathway" width="342" />
 <p class="caption">
 Figure 3.1: STING Pathway
 </p>
 </div>
+<p>Abnormal localization of DNA in the cytosol elicits an immune response through the cGAS-STING pathway. cGAS binds to DNA in the cytosol and converts ATP and GTP into 2′3′-cGAMP. cGAMP then binds to STING on the ER to trigger STING trafficking to vesicles. cGAMP-bound STING activates the downstream kinases TBK1 and IKK to activate the transcription factors IRF3 and NF-κB, respectively. These transcription factors induce expression of type I IFNs and cytokines, which propagate the immune response in an autocrine and paracrine manner33</p>
+</div>
+<div id="sting-analysis" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> STING Analysis<a href="3-results-and-discussion.html#sting-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Through an investigation evaluating the prognostic significance of a set of immunological features reflective of innate and adaptive immunity in DLBCL, the Jeyasekharan lab identified the inflammatory mediator STING as being correlated with a favourable prognosis.</p>
+<p>The correlation between STING expression and immune cell infiltration was examined for three RNA Seq datasets. The CIBERSORT Scores for each immune cell was divided into CIBERSORT high quartile (Q4), Interquartile range (IQR) and CIBERSORT low quartile (Q1). The TPM counts for STING expression was plotted as a continuous variable for each quartile and one way ANOVA and subsequent p value was used to determine statistical significance.</p>
 
 </div>
 </div>
