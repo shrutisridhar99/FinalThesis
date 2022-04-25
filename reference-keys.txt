@@ -4,6 +4,7 @@ fig:delaysboxplot
 fig:subd
 fig:subd2
 rmd-basics
+rna-seq-datasets
 immunedeconvolution
 math-sci
 math
