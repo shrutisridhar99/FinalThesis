@@ -19,4 +19,3 @@ bibliographies
 anything-else
 the-first-appendix
 the-second-appendix-for-fun
-if-you-have-more-two-advisors-un-silence-line-7
