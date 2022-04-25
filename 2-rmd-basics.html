@@ -54,6 +54,28 @@
 
 
 
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 </head>
 
@@ -72,8 +94,12 @@
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> If you have more two advisors, un-silence line 7</a></li>
 <li class="chapter" data-level="2" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html"><i class="fa fa-check"></i><b>2</b> Methodology</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html#rna-seq-datasets"><i class="fa fa-check"></i><b>2.1</b> RNA-Seq datasets</a></li>
+<li class="chapter" data-level="2.1" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html#datasets"><i class="fa fa-check"></i><b>2.1</b> Datasets</a></li>
 <li class="chapter" data-level="2.2" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html#immunedeconvolution"><i class="fa fa-check"></i><b>2.2</b> Immunedeconvolution</a></li>
+<li class="chapter" data-level="2.3" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html#pathway-analysis"><i class="fa fa-check"></i><b>2.3</b> Pathway Analysis</a></li>
+<li class="chapter" data-level="2.4" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html#sting-correlation-analysis"><i class="fa fa-check"></i><b>2.4</b> STING correlation analysis</a></li>
+<li class="chapter" data-level="2.5" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html#statistical-analysis"><i class="fa fa-check"></i><b>2.5</b> Statistical analysis</a></li>
+<li class="chapter" data-level="2.6" data-path="2-rmd-basics.html"><a href="2-rmd-basics.html#clustering-analysis"><i class="fa fa-check"></i><b>2.6</b> Clustering analysis</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="3-math-sci.html"><a href="3-math-sci.html"><i class="fa fa-check"></i><b>3</b> Mathematics and Science</a>
 <ul>
@@ -119,23 +145,24 @@
             <section class="normal" id="section-">
 <div id="rmd-basics" class="section level1 hasAnchor" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Methodology<a href="2-rmd-basics.html#rmd-basics" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="rna-seq-datasets" class="section level2 hasAnchor" number="2.1">
-<h2><span class="header-section-number">2.1</span> RNA-Seq datasets<a href="2-rmd-basics.html#rna-seq-datasets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The following whole genome RNA-Seq DLBCL datasets were compiled for analysis and validation</p>
+<div id="datasets" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Datasets<a href="2-rmd-basics.html#datasets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The following whole genome RNA-Seq DLBCL datasets were compiled for analysis and validation -</p>
 <ul>
 <li><p><em>GOYA DLBCL dataset</em></p>
 <ul>
-<li>This dataset contains collected RNASeq data of 552 samples from the GOYA clinical trial. The GOYA trial tested the efficacy of Gazyva (GA101) compared with Rituxan (Rituximab) in first line, untreated DLBCL patients.</li>
+<li>This dataset contains collected RNASeq data of 552 samples from the GOYA clinical trial. The GOYA trial tested the efficacy of Gazyva (GA101) compared with Rituxan (Rituximab) in first line, untreated DLBCL patients <span class="citation">(Nowicka et al., 2021)</span>.</li>
 </ul></li>
 <li><p><em>Dave dataset</em></p>
 <ul>
-<li>This dataset contain exome sequencing data for 1001 DLBCL patients and RNA sequencing data for 775 DLBCL patients.</li>
+<li>This dataset contain exome sequencing data for 1001 DLBCL patients and RNA sequencing data for 775 DLBCL patients <span class="citation">(Reddy et al., 2017)</span>.</li>
 </ul></li>
 <li><p><em>Staudt dataset</em></p>
 <ul>
-<li>This retrospective study included 181 clinical samples from CHOP-treated patients and 233 clinical samples from Rituximab-CHOP-treated patients.</li>
+<li>This retrospective study included 181 clinical samples from CHOP-treated patients and 233 clinical samples from Rituximab-CHOP-treated patients <span class="citation">(Schmitz et al., 2018)</span>.</li>
 </ul></li>
 </ul>
+<p>The following microarray datasets were choosen for analysis -</p>
 </div>
 <div id="immunedeconvolution" class="section level2 hasAnchor" number="2.2">
 <h2><span class="header-section-number">2.2</span> Immunedeconvolution<a href="2-rmd-basics.html#immunedeconvolution" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -147,6 +174,25 @@
 <li>xCell</li>
 <li>EPIC</li>
 </ul>
+</div>
+<div id="pathway-analysis" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Pathway Analysis<a href="2-rmd-basics.html#pathway-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>CIBERSORT results were chosen for further downstream analysis due to better resolution of the immune subtypes. For each immune subtype, the patient samples were divided into two cohorts (high and low) based on the immune cell subtype infiltration score (CIBERSORT Score). DeSeq223 analysis was conducted to find the differentially expressed genes following which Gene Set Enrichment24 Analysis using Hallmark gene sets was performed. R 4.1.1 and GraphPad PRISM 9 were used for visualization.</p>
+</div>
+<div id="sting-correlation-analysis" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> STING correlation analysis<a href="2-rmd-basics.html#sting-correlation-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The CIBERSORT Score for each immune cell type was divided into quartiles (CIBERSORT high (Q4), Interquartile range (IQR) and CIBERSORT low (Q1)) and correlated with STING TPM counts for each dataset. Violin plots were used to visualize the results. STING expression for each dataset was divided into quartiles and GSEA analysis was performed between Quartile 1 and Quartile 4 in each of the microarray datasets in order to evaluate pathway level differences.</p>
+</div>
+<div id="statistical-analysis" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> Statistical analysis<a href="2-rmd-basics.html#statistical-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Descriptive statistics and one way ANOVA tests were conducted using GraphPad PRISM 9 software for evaluating statistical significance of each quartile. FDR &lt; 0.05 and p value &lt; 0.05 were considered statistically significant for GSEA and GO analysis. Pearson correlation was conducted using R 4.1.1.</p>
+</div>
+<div id="clustering-analysis" class="section level2 hasAnchor" number="2.6">
+<h2><span class="header-section-number">2.6</span> Clustering analysis<a href="2-rmd-basics.html#clustering-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>25 FGES (Functional Gene Enrichment Signatures) signatures38 were used to identify microenvironmental patterns among DLBCL samples, stratified by STING expression (quartile 4 being STING High samples and quartile 1 Low STING samples) by unsupervised dense clustering using the Louvain method for community detection. Datasets GSE117556, GSE32918, GSE10846, GSE23501 and GSE31312 were individually analyzed and Gene Set Variation Analysis (GSVA) was conducted to generate activity scores.</p>
+<p>Intersample similarity of the activity scores was calculated using Pearson correlation. The resulting distance matrix was converted into a graph where each sample formed a node and two nodes formed an edge with weight equal to the pair’s Pearson correlation.</p>
+<p>To mathematically determine the optimum threshold for observed clusters for each dataset, maximum Calinski Harabasz and Silhouette scores were used excluding separations with low-populated clusters. The Calinski-Harabasz index, also known as the Variance Ratio Criterion, is the ratio of the sum of between-clusters dispersion and of inter-cluster dispersion for all clusters, the higher the score, the better the performance.</p>
+<p>This score is fast to compute and the score is higher when clusters are dense and well separated. Silhouette Coefficient or silhouette score is a metric used to calculate the goodness of a clustering technique. Its value ranges from -1 to 1. WIth 1 meaning the clusters are well apart from each other and clearly distinguished. 0 meaning the clusters are indifferent and -1 meaning the clusters are assigned in the wrong way. The Silhouette score was used as validation after computing the Calinski-Harabasz index and optimum threshold was decided.</p>
 
 </div>
 </div>

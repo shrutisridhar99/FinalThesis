@@ -30,7 +30,7 @@
   
   
 <link rel="prev" href="introduction.html"/>
-<link rel="next" href="2-math-sci.html"/>
+<link rel="next" href="2-results-and-discussion.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -163,20 +163,14 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i>Introduction</a></li>
 <li class="chapter" data-level="1" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html"><i class="fa fa-check"></i><b>1</b> Methodology</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html#rna-seq-datasets"><i class="fa fa-check"></i><b>1.1</b> RNA-Seq datasets</a></li>
+<li class="chapter" data-level="1.1" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html#datasets"><i class="fa fa-check"></i><b>1.1</b> Datasets</a></li>
 <li class="chapter" data-level="1.2" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html#immunedeconvolution"><i class="fa fa-check"></i><b>1.2</b> Immunedeconvolution</a></li>
+<li class="chapter" data-level="1.3" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html#pathway-analysis"><i class="fa fa-check"></i><b>1.3</b> Pathway Analysis</a></li>
+<li class="chapter" data-level="1.4" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html#sting-correlation-analysis"><i class="fa fa-check"></i><b>1.4</b> STING correlation analysis</a></li>
+<li class="chapter" data-level="1.5" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html#statistical-analysis"><i class="fa fa-check"></i><b>1.5</b> Statistical analysis</a></li>
+<li class="chapter" data-level="1.6" data-path="1-rmd-basics.html"><a href="1-rmd-basics.html#clustering-analysis"><i class="fa fa-check"></i><b>1.6</b> Clustering analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="2-math-sci.html"><a href="2-math-sci.html"><i class="fa fa-check"></i><b>2</b> Mathematics and Science</a>
-<ul>
-<li class="chapter" data-level="2.1" data-path="2-math-sci.html"><a href="2-math-sci.html#math"><i class="fa fa-check"></i><b>2.1</b> Math</a></li>
-<li class="chapter" data-level="2.2" data-path="2-math-sci.html"><a href="2-math-sci.html#chemistry-101-symbols"><i class="fa fa-check"></i><b>2.2</b> Chemistry 101: Symbols</a>
-<ul>
-<li class="chapter" data-level="2.2.1" data-path="2-math-sci.html"><a href="2-math-sci.html#typesetting-reactions"><i class="fa fa-check"></i><b>2.2.1</b> Typesetting reactions</a></li>
-<li class="chapter" data-level="2.2.2" data-path="2-math-sci.html"><a href="2-math-sci.html#other-examples-of-reactions"><i class="fa fa-check"></i><b>2.2.2</b> Other examples of reactions</a></li>
-</ul></li>
-<li class="chapter" data-level="2.3" data-path="2-math-sci.html"><a href="2-math-sci.html#physics"><i class="fa fa-check"></i><b>2.3</b> Physics</a></li>
-<li class="chapter" data-level="2.4" data-path="2-math-sci.html"><a href="2-math-sci.html#biology"><i class="fa fa-check"></i><b>2.4</b> Biology</a></li>
-</ul></li>
+<li class="chapter" data-level="2" data-path="2-results-and-discussion.html"><a href="2-results-and-discussion.html"><i class="fa fa-check"></i><b>2</b> RESULTS AND DISCUSSION:</a></li>
 <li class="chapter" data-level="3" data-path="3-ref-labels.html"><a href="3-ref-labels.html"><i class="fa fa-check"></i><b>3</b> Graphics, References, and Labels</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="3-ref-labels.html"><a href="3-ref-labels.html#figures"><i class="fa fa-check"></i><b>3.1</b> Figures</a></li>
@@ -210,23 +204,24 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="rmd-basics" class="section level1 hasAnchor" number="1">
 <h1><span class="header-section-number">Chapter 1</span> Methodology<a href="1-rmd-basics.html#rmd-basics" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="rna-seq-datasets" class="section level2 hasAnchor" number="1.1">
-<h2><span class="header-section-number">1.1</span> RNA-Seq datasets<a href="1-rmd-basics.html#rna-seq-datasets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The following whole genome RNA-Seq DLBCL datasets were compiled for analysis and validation</p>
+<div id="datasets" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Datasets<a href="1-rmd-basics.html#datasets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The following whole genome RNA-Seq DLBCL datasets were compiled for analysis and validation -</p>
 <ul>
 <li><p><em>GOYA DLBCL dataset</em></p>
 <ul>
-<li>This dataset contains collected RNASeq data of 552 samples from the GOYA clinical trial. The GOYA trial tested the efficacy of Gazyva (GA101) compared with Rituxan (Rituximab) in first line, untreated DLBCL patients.</li>
+<li>This dataset contains collected RNASeq data of 552 samples from the GOYA clinical trial. The GOYA trial tested the efficacy of Gazyva (GA101) compared with Rituxan (Rituximab) in first line, untreated DLBCL patients <span class="citation">(Nowicka et al., 2021)</span>.</li>
 </ul></li>
 <li><p><em>Dave dataset</em></p>
 <ul>
-<li>This dataset contain exome sequencing data for 1001 DLBCL patients and RNA sequencing data for 775 DLBCL patients.</li>
+<li>This dataset contain exome sequencing data for 1001 DLBCL patients and RNA sequencing data for 775 DLBCL patients <span class="citation">(Reddy et al., 2017)</span>.</li>
 </ul></li>
 <li><p><em>Staudt dataset</em></p>
 <ul>
-<li>This retrospective study included 181 clinical samples from CHOP-treated patients and 233 clinical samples from Rituximab-CHOP-treated patients.</li>
+<li>This retrospective study included 181 clinical samples from CHOP-treated patients and 233 clinical samples from Rituximab-CHOP-treated patients <span class="citation">(Schmitz et al., 2018)</span>.</li>
 </ul></li>
 </ul>
+<p>The following microarray datasets were choosen for analysis -</p>
 </div>
 <div id="immunedeconvolution" class="section level2 hasAnchor" number="1.2">
 <h2><span class="header-section-number">1.2</span> Immunedeconvolution<a href="1-rmd-basics.html#immunedeconvolution" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -238,6 +233,25 @@ div.csl-indent {
 <li>xCell</li>
 <li>EPIC</li>
 </ul>
+</div>
+<div id="pathway-analysis" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Pathway Analysis<a href="1-rmd-basics.html#pathway-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>CIBERSORT results were chosen for further downstream analysis due to better resolution of the immune subtypes. For each immune subtype, the patient samples were divided into two cohorts (high and low) based on the immune cell subtype infiltration score (CIBERSORT Score). DeSeq223 analysis was conducted to find the differentially expressed genes following which Gene Set Enrichment24 Analysis using Hallmark gene sets was performed. R 4.1.1 and GraphPad PRISM 9 were used for visualization.</p>
+</div>
+<div id="sting-correlation-analysis" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> STING correlation analysis<a href="1-rmd-basics.html#sting-correlation-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The CIBERSORT Score for each immune cell type was divided into quartiles (CIBERSORT high (Q4), Interquartile range (IQR) and CIBERSORT low (Q1)) and correlated with STING TPM counts for each dataset. Violin plots were used to visualize the results. STING expression for each dataset was divided into quartiles and GSEA analysis was performed between Quartile 1 and Quartile 4 in each of the microarray datasets in order to evaluate pathway level differences.</p>
+</div>
+<div id="statistical-analysis" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Statistical analysis<a href="1-rmd-basics.html#statistical-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Descriptive statistics and one way ANOVA tests were conducted using GraphPad PRISM 9 software for evaluating statistical significance of each quartile. FDR &lt; 0.05 and p value &lt; 0.05 were considered statistically significant for GSEA and GO analysis. Pearson correlation was conducted using R 4.1.1.</p>
+</div>
+<div id="clustering-analysis" class="section level2 hasAnchor" number="1.6">
+<h2><span class="header-section-number">1.6</span> Clustering analysis<a href="1-rmd-basics.html#clustering-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>25 FGES (Functional Gene Enrichment Signatures) signatures38 were used to identify microenvironmental patterns among DLBCL samples, stratified by STING expression (quartile 4 being STING High samples and quartile 1 Low STING samples) by unsupervised dense clustering using the Louvain method for community detection. Datasets GSE117556, GSE32918, GSE10846, GSE23501 and GSE31312 were individually analyzed and Gene Set Variation Analysis (GSVA) was conducted to generate activity scores.</p>
+<p>Intersample similarity of the activity scores was calculated using Pearson correlation. The resulting distance matrix was converted into a graph where each sample formed a node and two nodes formed an edge with weight equal to the pair’s Pearson correlation.</p>
+<p>To mathematically determine the optimum threshold for observed clusters for each dataset, maximum Calinski Harabasz and Silhouette scores were used excluding separations with low-populated clusters. The Calinski-Harabasz index, also known as the Variance Ratio Criterion, is the ratio of the sum of between-clusters dispersion and of inter-cluster dispersion for all clusters, the higher the score, the better the performance.</p>
+<p>This score is fast to compute and the score is higher when clusters are dense and well separated. Silhouette Coefficient or silhouette score is a metric used to calculate the goodness of a clustering technique. Its value ranges from -1 to 1. WIth 1 meaning the clusters are well apart from each other and clearly distinguished. 0 meaning the clusters are indifferent and -1 meaning the clusters are assigned in the wrong way. The Silhouette score was used as validation after computing the Calinski-Harabasz index and optimum threshold was decided.</p>
 
 </div>
 </div>
@@ -247,7 +261,7 @@ div.csl-indent {
         </div>
       </div>
 <a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="2-math-sci.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="2-results-and-discussion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -301,20 +315,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
