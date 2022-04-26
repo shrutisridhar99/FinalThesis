@@ -1,4 +1,5 @@
 fig:STING
+fig:STINGROS
 fig:GSE10846
 fig:GSE23501
 fig:GSE31312
@@ -25,5 +26,3 @@ gsea-analysis-for-gse98588
 gsea-analysis-for-gse117556
 gapdh-and-sting-correlation
 appendix
-if-you-have-more-two-advisors-un-silence-line-7
-fig:STINGROS
