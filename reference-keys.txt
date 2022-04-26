@@ -1,5 +1,10 @@
 fig:STING
 fig:GSE10846
+fig:GSE23501
+fig:GSE31312
+fig:GSE32918
+fig:GSE98588
+fig:GSE117556
 rmd-basics
 datasets
 immunedeconvolution
@@ -12,4 +17,11 @@ pathway-analysis-1
 sting-cgas-pathway
 sting-correlation-analysis-1
 sting-gsea-analysis
+gsea-analysis-for-gse10846
+gsea-analysis-for-gse23501
+gsea-analysis-for-gse31312
+gsea-analysis-for-gse32918
+gsea-analysis-for-gse98588
+gsea-analysis-for-gse117556
+gapdh-and-sting-correlation
 appendix
