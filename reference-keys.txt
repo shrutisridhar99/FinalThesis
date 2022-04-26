@@ -1,4 +1,5 @@
 fig:STING
+fig:GSE10846
 rmd-basics
 datasets
 immunedeconvolution
@@ -10,4 +11,5 @@ results-and-discussion
 pathway-analysis-1
 sting-cgas-pathway
 sting-correlation-analysis-1
+sting-gsea-analysis
 appendix
