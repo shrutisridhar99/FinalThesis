@@ -1,7 +1,7 @@
 fig:STING
-fig:unnamed-chunk-2
-fig:unnamed-chunk-3
 fig:unnamed-chunk-4
+fig:unnamed-chunk-5
+fig:unnamed-chunk-6
 fig:STINGROS
 fig:GSE10846
 fig:GSE23501
@@ -9,7 +9,6 @@ fig:GSE31312
 fig:GSE32918
 fig:GSE98588
 fig:GSE117556
-if-you-have-more-two-advisors-un-silence-line-7
 rmd-basics
 datasets
 immunedeconvolution
@@ -33,5 +32,5 @@ gsea-analysis-for-gse98588
 gsea-analysis-for-gse117556
 gapdh-and-sting-correlation
 tumor-clustering-ananlysis
-appendix
 gse32918-clustering
+appendix
