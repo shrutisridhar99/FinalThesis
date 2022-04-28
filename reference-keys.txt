@@ -44,3 +44,6 @@ oci-ly3
 riva
 u9322
 appendix
+fig:unnamed-chunk-2
+fig:unnamed-chunk-3
+if-you-have-more-two-advisors-un-silence-line-7
