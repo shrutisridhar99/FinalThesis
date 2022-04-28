@@ -39,3 +39,7 @@ gse23501-clustering
 gse31312-clustering
 cell-line-analysis
 appendix
+fig:unnamed-chunk-2
+fig:unnamed-chunk-3
+if-you-have-more-two-advisors-un-silence-line-7
+farage-cell-line
