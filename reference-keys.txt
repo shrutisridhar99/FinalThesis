@@ -10,7 +10,15 @@ fig:GSE31312
 fig:GSE32918
 fig:GSE98588
 fig:GSE117556
+fig:GAPDH
 fig:STINGROS
+fig:1
+fig:2
+fig:3
+fig:4
+fig:5
+fig:6
+fig:7
 rmd-basics
 datasets
 immunedeconvolution
@@ -47,3 +55,8 @@ sting-as-a-recruiter-of-immune-cells
 pathway-level-regulation-by-sting
 sting-and-its-role-in-the-lymophoma-microenvrionment
 appendix
+pathways-analysis
+correlation-analysis
+dave
+staudt
+goya
