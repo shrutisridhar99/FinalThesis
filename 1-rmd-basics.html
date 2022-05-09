@@ -242,10 +242,10 @@ div.csl-indent {
 </div>
 <div id="clustering-analysis" class="section level2 hasAnchor" number="1.6">
 <h2><span class="header-section-number">1.6</span> Clustering analysis<a href="1-rmd-basics.html#clustering-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>25 FGES (Functional Gene Enrichment Signatures) signatures <span class="citation">(<a href="#ref-kotlov2021clinical" role="doc-biblioref">Kotlov et al., 2021</a>)</span> were used to identify microenvironmental patterns among DLBCL samples, stratified by STING expression (quartile 4 being STING High samples and quartile 1 Low STING samples) by unsupervised dense clustering using the Louvain method for community detection. Datasets GSE117556, GSE32918, GSE10846, GSE23501 and GSE31312 were individually analyzed and Gene Set Variation Analysis (GSVA) <span class="citation">(<a href="#ref-hanzelmann2013gsva" role="doc-biblioref">Hänzelmann, Castelo, &amp; Guinney, 2013</a>)</span> was conducted to generate activity scores.</p>
+<p>25 FGES (Functional Gene Enrichment Signatures) signatures <span class="citation">(<a href="#ref-kotlov2021clinical" role="doc-biblioref">Kotlov et al., 2021</a>)</span> were used to identify microenvironmental patterns among DLBCL samples by unsupervised dense clustering using the Louvain method for community detection. Datasets GSE117556, GSE32918, GSE10846, GSE23501 and GSE31312 were individually analyzed and Gene Set Variation Analysis (GSVA) <span class="citation">(<a href="#ref-hanzelmann2013gsva" role="doc-biblioref">Hänzelmann, Castelo, &amp; Guinney, 2013</a>)</span> was conducted to generate activity scores.</p>
 <p>Intersample similarity of the activity scores was calculated using Pearson correlation. The resulting distance matrix was converted into a graph where each sample formed a node and two nodes formed an edge with weight equal to the pair’s Pearson correlation.</p>
-<p>To mathematically determine the optimum threshold for observed clusters for each dataset, maximum Calinski Harabasz and Silhouette scores <span class="citation">(<a href="#ref-wang2019improved" role="doc-biblioref">Wang &amp; Xu, 2019</a>)</span> were used excluding separations with low-populated clusters. The Calinski-Harabasz index, also known as the Variance Ratio Criterion, is the ratio of the sum of between-clusters dispersion and of inter-cluster dispersion for all clusters, the higher the score, the better the performance.</p>
-<p>This score is fast to compute and the score is higher when clusters are dense and well separated. Silhouette Coefficient or silhouette score is a metric used to calculate the goodness of a clustering technique. Its value ranges from -1 to 1. WIth 1 meaning the clusters are well apart from each other and clearly distinguished. 0 meaning the clusters are indifferent and -1 meaning the clusters are assigned in the wrong way. The Silhouette score was used as validation after computing the Calinski-Harabasz index and optimum threshold was decided.</p>
+<p>To mathematically determine the optimum threshold for observed clusters for each dataset, maximum Calinski Harabasz and Silhouette scores <span class="citation">(<a href="#ref-wang2019improved" role="doc-biblioref">Wang &amp; Xu, 2019</a>)</span> were used excluding separations with low-populated clusters. The Calinski-Harabasz index, also known as the Variance Ratio Criterion, is the ratio of the sum of between-clusters dispersion and of inter-cluster dispersion for all clusters, the higher the score, the better the performance. <span class="citation">(<a href="#ref-maulik2002performance" role="doc-biblioref">Maulik &amp; Bandyopadhyay, 2002</a>)</span></p>
+<p>This score is fast to compute and the score is higher when clusters are dense and well separated. Silhouette Coefficient or silhouette score is a metric used to calculate the goodness of a clustering technique. <span class="citation">(<a href="#ref-shahapure2020cluster" role="doc-biblioref">Shahapure &amp; Nicholas, 2020</a>)</span> Its value ranges from -1 to 1. With 1 meaning the clusters are well apart from each other and clearly distinguished. 0 meaning the clusters are indifferent and -1 meaning the clusters are assigned in the wrong way. The Silhouette score was used as validation after computing the Calinski-Harabasz index and optimum threshold was decided.</p>
 
 </div>
 </div>
@@ -266,6 +266,9 @@ Hänzelmann, S., Castelo, R., &amp; Guinney, J. (2013). GSVA: Gene set variation
 <div id="ref-kotlov2021clinical" class="csl-entry">
 Kotlov, N., Bagaev, A., Revuelta, M. V., Phillip, J. M., Cacciapuoti, M. T., Antysheva, Z., … others. (2021). Clinical and biological subtypes of b-cell lymphoma revealed by microenvironmental signatures. <em>Cancer Discovery</em>, <em>11</em>(6), 1468–1489.
 </div>
+<div id="ref-maulik2002performance" class="csl-entry">
+Maulik, U., &amp; Bandyopadhyay, S. (2002). Performance evaluation of some clustering algorithms and validity indices. <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, <em>24</em>(12), 1650–1654.
+</div>
 <div id="ref-nowicka2021prognostic" class="csl-entry">
 Nowicka, M., Hilton, L. K., Ashton-Key, M., Hargreaves, C. E., Lee, C., Foxall, R., … others. (2021). Prognostic significance of FCGR2B expression for the response of DLBCL patients to rituximab or obinutuzumab treatment. <em>Blood Advances</em>, <em>5</em>(15), 2945–2957.
 </div>
@@ -277,6 +280,9 @@ Reddy, A., Zhang, J., Davis, N. S., Moffitt, A. B., Love, C. L., Waldrop, A., �
 </div>
 <div id="ref-schmitz2018genetics" class="csl-entry">
 Schmitz, R., Wright, G. W., Huang, D. W., Johnson, C. A., Phelan, J. D., Wang, J. Q., … others. (2018). Genetics and pathogenesis of diffuse large b-cell lymphoma. <em>New England Journal of Medicine</em>, <em>378</em>(15), 1396–1407.
+</div>
+<div id="ref-shahapure2020cluster" class="csl-entry">
+Shahapure, K. R., &amp; Nicholas, C. (2020). Cluster quality analysis using silhouette score. In <em>2020 IEEE 7th international conference on data science and advanced analytics (DSAA)</em> (pp. 747–748). IEEE.
 </div>
 <div id="ref-stewart2020role" class="csl-entry">
 Stewart, L. J., Ong, C. Y., Zhang, M. M., Brouwer, S., McIntyre, L., Davies, M. R., … Djoko, K. Y. (2020). Role of glutathione in buffering excess intracellular copper in streptococcus pyogenes. <em>MBio</em>, <em>11</em>(6), e02804–20.
